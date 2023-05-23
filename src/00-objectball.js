@@ -1,14 +1,19 @@
 function gameObject(){
     const obj = {
         home: {
-            teamName: 
-            colors: 
-            players: 
+            teamName: "",
+            colors: [],
+            players: {
 
+            }
+        },
 
-        }
-        away: {} 
+        away: {
+            teamName: "",
+            colors: [],
+            players: {}
+        } 
     }
+    console.log();
     return obj;
-
 }
